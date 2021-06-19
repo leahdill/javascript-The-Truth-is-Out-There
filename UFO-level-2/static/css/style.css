@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: Ubuntu, sans-serif;
+  font-family: monospace, sans-serif;
 }
 
 html,
@@ -8,6 +8,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background: rgb(46, 65, 78);
 }
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
@@ -35,7 +36,7 @@ body {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background: #1b3146;
+  background: rgb(46, 65, 78);
 }
 
 .navbar {
@@ -47,7 +48,7 @@ body {
 .nav-ufo {
   position: absolute;
   bottom: 5px;
-  left: 150px;
+  left: 160px;
   width: 35px;
   color: white;
 }
@@ -98,10 +99,15 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/infiity-war.jpg");
+  img {
+    max-width: 100%;
+    height: auto;
+  }
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
+  
 }
 
 .hero h1 {
